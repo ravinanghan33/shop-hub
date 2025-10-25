@@ -22,7 +22,10 @@ export default defineConfig({
             './src/pages/admin/AdminProducts.tsx',
             './src/pages/admin/AdminUsers.tsx',
             './src/pages/admin/AdminCarts.tsx',
-            './src/components/admin'
+            './src/components/admin/AdminTable.tsx',
+            './src/components/admin/AdminDialog.tsx',
+            './src/components/admin/DeleteConfirmDialog.tsx',
+            './src/components/admin/ProductFormDialog.tsx'
           ],
           'cart': [
             './src/pages/CartPage.tsx',
