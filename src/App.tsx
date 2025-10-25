@@ -35,7 +35,7 @@ const LoadingFallback = () => (
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shop-hub">
       <ThemeProvider>
         <AdminAuthProvider>
           <CartProvider>
